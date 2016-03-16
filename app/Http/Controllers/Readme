@@ -1,0 +1,19 @@
+CreatePost:
+
+curl --data "text=this is para-1%0A%0Athis is para-2&title=curl post" http://localhost/blog/createpost
+
+get all posts
+
+    http://localhost/blog/public/getcomments/{pageNo}
+
+get comments of a paragraph
+
+    http://localhost/blog/public/getparagraphs/{postId}
+
+add comment on a paragraph
+
+    http://localhost/blog/public/addcomment  : paragraph_id&comment
+
+add paragraph
+
+    http://localhost/blog/public/addparagraph : post_id&seq_no&text
