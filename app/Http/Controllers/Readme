@@ -1,6 +1,6 @@
 CreatePost:
 
-curl --data "text=this is para-1%0A%0Athis is para-2&title=curl post" http://localhost/blog/createpost
+curl --data "text=this is para-1%0A%0Athis is para-2&title=curl post" http://localhost/blog/public/createpost
 
 get all posts
 
